@@ -119,6 +119,15 @@ section .btn:active {
     transform: rotate(0);
 }
 
+footer {
+    padding: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5rem;
+    color: var(--color-bg-variant);
+    user-select: none;
+}
+
 /* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================== */
 @media screen and (max-width: 1024px) {
     .container {
